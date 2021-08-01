@@ -50,8 +50,8 @@ def time_str(dt_str, meridian=None):
 # Transform Days to number and number to day
 def transform_day_number(day, reverse=None):
     data_day = None
-    day_map = {'mon': 1, "tue": 2, "wed": 3, "thu": 4, "fri": 5, "sat": 6, "sun": 0}
-    reverse_day_map = {1: 'mon', 2: "tue", 3: "wed", 4: "thu", 5: "fri", 6: "sat", 0: "sun"}
+    day_map = {'mon': 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
+    reverse_day_map = {0: 'mon', 1: "tue", 2: "wed", 3: "thu", 4: "fri", 5: "sat", 6: "sun"}
     if reverse:
         return reverse_day_map[day]
     if 'mon' in day.lower():
@@ -72,7 +72,7 @@ def transform_day_number(day, reverse=None):
 
 
 # Extract business operation time Open / Close
-def extract_operation_time(b_time=None, data_day=None, line=None):
+def extract_operation_time(b_time: str = None, data_day: str = None, line: str = None):
 
     b_time.lower().replace(transform_day_number(day=data_day, reverse=True), "")
     # Time - time break up
@@ -112,9 +112,13 @@ def extract_operation_time(b_time=None, data_day=None, line=None):
     return business_open, business_close
 
 
-def insert_business_schedule(line, business_id=None):
+def get_raw_schedule_from_line(line: str = None):
+    return line.split("\",\"")[1].lstrip('"').rstrip('"')
+
+
+def insert_business_schedule(line: str = None, business_id: str = None):
     # Business Schedule part from the given line
-    business_time = line.split("\",\"")[1].lstrip('"').rstrip('"')
+    business_time = get_raw_schedule_from_line(line=line)
     options = business_time.split('/')
 
     for opt in options:
@@ -166,29 +170,30 @@ def insert_data(data: object = {}, collection: object = None) -> object:
     connection = db_connect()
     try:
         inserted = connection[collection].insert_one(data)
-        return str(inserted)
+        return inserted.inserted_id
     except Exception as e:
         print(f"Error in Insert() {str(e)}")
 
 
-def select_data(statement={}, collection=None):
+def select_data(statement: object = {}, collection=None):
     connection = db_connect()
     try:
-        data = connection[collection].find(statement)
+        data = connection[collection].find_one(statement)
         return data
     except Exception as e:
         print(f"Error in select {str(e)}")
 
 
-def insert_business_name(b_name=None):
+def insert_business_name(b_name: str = None, raw_schedule: str = None):
     if b_name:
         # If business already present return the business_id instead of inserting
-        data = list(select_data(statement={"name": b_name}, collection=collection_business))
-        if len(data) > 0:
-            b_id = str(data[0]['_id'])
+        data = select_data(statement={"name": b_name}, collection=collection_business)
+        if data and data.get('_id', None):
+            b_id = str(data['_id'])
             return b_id
         else:
-            return insert_data(data={'name': b_name}, collection=collection_business)
+            data = insert_data(data={'name': b_name, 'raw_schedule': raw_schedule}, collection=collection_business)
+            return data
 
 
 def main():
@@ -209,7 +214,7 @@ def main():
                     duplicate_business.append(business_name)
 
                 # Creating 'business' collection
-                b_id = insert_business_name(b_name=business_name)
+                b_id = insert_business_name(b_name=business_name, raw_schedule=get_raw_schedule_from_line(line=line))
                 insert_business_schedule(line, business_id=str(b_id))
 
     except Exception as error:

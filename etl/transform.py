@@ -4,7 +4,7 @@ from itertools import cycle
 # Helpers
 # Transform From date - to date into comma seperated days in a cyclic order
 def from_to_day_gen(from_day, to_day):
-    days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+    days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
     pool = cycle(days)
     start = None
     ret_days = []
@@ -22,7 +22,7 @@ def from_to_day_gen(from_day, to_day):
 
 # Generate all possible combinations of From-To days
 def generate_combination():
-    days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+    days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
     ends_with = days[-1]
     chain_days = days
     combinations = {}

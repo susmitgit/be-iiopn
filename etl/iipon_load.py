@@ -210,7 +210,7 @@ def main():
 
                 # Creating 'business' collection
                 b_id = insert_business_name(b_name=business_name)
-                insert_business_schedule(line, business_id=b_id)
+                insert_business_schedule(line, business_id=str(b_id))
 
     except Exception as error:
         print("Failed to insert record into mobile table", error)

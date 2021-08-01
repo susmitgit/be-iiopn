@@ -1,22 +1,21 @@
 import datetime
 import os
 from pymongo import MongoClient
-from application import bcrypt
+from werkzeug.security import generate_password_hash, check_password_hash
 from bson.objectid import ObjectId
-from helpers import transform_raw_schedule
+from application.utils.helpers import transform_raw_schedule
 
-# todo Handle below
-# First, declare a Document/Collection pair (a "model"):
-from mongokat import Collection, Document
+from mongokat import Collection
 
-client = MongoClient(host=os.getenv('DATABASE_HOST', 'localhost'), connect=False)
+client = MongoClient(host=os.getenv('DATABASE_HOST', 'localhost'), port=int(os.getenv('DATABASE_PORT', '27017')),
+                     connect=False)
 db = client[os.getenv('DATABASE_NAME', 'test')]
 
 
 class UserCollection(Collection):
 
     __collection__ = 'users'
-    structure = {'email': str, 'password': str}
+    structure = {'email': str, 'password': str, 'username': str}
     protected_fields = ('password')
 
     def __init__(self, db, *args, **kwargs):
@@ -24,11 +23,11 @@ class UserCollection(Collection):
 
     @staticmethod
     def hashed_password(password):
-        return bcrypt.generate_password_hash(password)
+        return generate_password_hash(password)
 
     def get_user_with_email_and_password(self, email, password):
         user = self.find_one({'email': email})
-        if user and bcrypt.check_password_hash(user['password'], password):
+        if user and check_password_hash(user['password'], password):
             return user
         else:
             return None

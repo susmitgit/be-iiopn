@@ -6,7 +6,7 @@ class Config(object):
     Common configurations
     """
 
-    SECRET_KEY = "MYSECUREKEY"
+    SECRET_KEY = "MY_APP_SECURE"
     DEBUG = True
 
 

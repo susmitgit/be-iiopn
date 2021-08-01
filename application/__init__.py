@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template
 from flask_bcrypt import Bcrypt
 
@@ -24,5 +25,8 @@ def create_app(config_name):
     def internal_server_error(error):
         pass
         return render_template('errors/500.html', title='Server Error'), 500
+
+    from .api import api as api_base
+    app.register_blueprint(api_base, url_prefix='/api/v1')
 
     return app

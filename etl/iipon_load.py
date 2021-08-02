@@ -1,9 +1,11 @@
+import os
+
 from pymongo import MongoClient
 
 collection_schedule = 'schedule'
 collection_business = 'business'
 
-
+dbCon = None
 # Helpers methods
 # Business name extract from the read line string
 def extract_business_name(line):
@@ -157,10 +159,13 @@ def insert_business_schedule(line: str = None, business_id: str = None):
 
 
 def db_connect():
+    global dbCon
     try:
-        client = MongoClient(port=9045, host='192.168.1.109')
-        db = client.iiopn1
-        return db
+        if not dbCon:
+            client = MongoClient(port=int(os.getenv('DATABASE_PORT', '27017')), host=os.getenv('DATABASE_HOST', 'localhost'))
+            db = client[os.getenv('DATABASE_NAME', 'test')]
+            dbCon = db
+        return dbCon
     except Exception as e:
         print(f"Error in DB Connection {str(e)}")
         return None
@@ -202,6 +207,7 @@ def main():
     output = {}
     all_business_names = []
     duplicate_business = []
+
     try:
         # Read the transformed data line by line
         with open(raw_file, 'r') as f:

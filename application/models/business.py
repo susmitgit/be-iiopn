@@ -19,4 +19,4 @@ class BusinessCollection(Collection):
             return []
 
     def search_business(self, search_txt):
-        return list(self.find({"name": {"$regex": search_txt, "$options": "i"}}))
+        return [transform_raw_schedule(a) for a in list(self.find({"name": {"$regex": search_txt, "$options": "i"}}))]

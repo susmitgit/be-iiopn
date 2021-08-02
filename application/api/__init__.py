@@ -2,7 +2,8 @@ from flask import Blueprint, jsonify, render_template
 
 api = Blueprint('api_base', __name__)
 
-from . import users
+from . import users, business, schedule
+
 
 api_base = api
 

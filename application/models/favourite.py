@@ -2,6 +2,7 @@ from mongokat import Collection
 from application.utils.helpers import transform_raw_schedule
 from bson import ObjectId
 
+
 class FavouriteCollection(Collection):
 
     __collection__ = 'favourites'

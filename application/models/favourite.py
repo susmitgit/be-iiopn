@@ -1,4 +1,5 @@
 from mongokat import Collection
+from flask import request, jsonify, g
 from application.utils.helpers import transform_raw_schedule
 from bson import ObjectId
 
@@ -24,3 +25,6 @@ class FavouriteCollection(Collection):
             return transform_raw_schedule(business)
         else:
             return None
+
+    def search_favourite(self, search_txt):
+        return list(self.find({"name": {"$regex": search_txt, "$options": "i"}, 'u_id': g.current_user['id']}))

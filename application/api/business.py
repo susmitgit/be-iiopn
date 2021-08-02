@@ -7,16 +7,12 @@ from application.api.error_response import ErrorResponses
 error = ErrorResponses()
 
 
-@api_auth.route("/business", methods=["GET"])
+@api_auth.route("/business/<id>", methods=["GET"])
 @requires_auth
-def get_business_with_name():
-    incoming = request.get_json()
-    if incoming.get('name', None):
-        return jsonify(result=Business.get_business_with_name(name=incoming['name']))
-    elif incoming.get('id', None):
-        return jsonify(result=Business.get_business_with_business_id(id=incoming['id']))
+def get_business_with_name(id):
+
+    b_id = id if Business.get_business_with_business_id(id=id) else None
+    if b_id:
+        return jsonify(result=Business.get_business_with_business_id(id=b_id))
     else:
-        return error.required_filed(fields=['name', 'id'])
-
-
-
+        return jsonify(result={})

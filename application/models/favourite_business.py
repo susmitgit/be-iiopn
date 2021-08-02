@@ -1,8 +1,10 @@
 from mongokat import Collection
+from application.utils.helpers import transform_raw_schedule
+
 
 class FavouriteBusinessCollection(Collection):
 
-    __collection__ = 'favourites_business'
+    __collection__ = 'favourite_business'
     structure = {'fav_id': str, 'b_id': str}
 
     def __init__(self, db, *args, **kwargs):

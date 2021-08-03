@@ -1,9 +1,10 @@
 import os
+import logging
+
 from flask import Flask, render_template
 from flask_bcrypt import Bcrypt
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-
 from config import app_config
 
 bcrypt = Bcrypt()
@@ -19,10 +20,17 @@ def create_app(config_name):
         key_func=get_remote_address,
         default_limits=["2000/day", "300/hour", "50/minute"]
     )
+    log_level = logging.DEBUG
+    if app_config[config_name] == 'production':
+        log_level = logging.ERROR
+
+    logging.basicConfig(filename='logs/be_server.log', level=log_level,
+                        format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
     @app.route('/', methods=['GET'])
     @limiter.limit("10/minute")
     def index():
+        logging.info("Hitting Root")
         return render_template('index.html')
 
     @app.route('/<path:path>', methods=['GET'])
@@ -31,7 +39,7 @@ def create_app(config_name):
 
     @app.errorhandler(500)
     def internal_server_error(error):
-        pass
+        logging.error(str(error))
         return render_template('errors/500.html', title='Server Error'), 500
 
     from .api import api as api_base

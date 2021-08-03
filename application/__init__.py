@@ -1,6 +1,8 @@
 import os
 from flask import Flask, render_template
 from flask_bcrypt import Bcrypt
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 from config import app_config
 
@@ -12,8 +14,14 @@ def create_app(config_name):
     app.config.from_object(app_config[config_name])
     app.config.from_pyfile('config.py')
     bcrypt.init_app(app)
+    limiter = Limiter(
+        app,
+        key_func=get_remote_address,
+        default_limits=["2000/day", "300/hour", "50/minute"]
+    )
 
     @app.route('/', methods=['GET'])
+    @limiter.limit("10/minute")
     def index():
         return render_template('index.html')
 

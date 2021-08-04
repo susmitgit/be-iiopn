@@ -1,5 +1,5 @@
 from mongokat import Collection
-from flask import request, jsonify, g
+from flask import g
 from application.utils.helpers import transform_raw_schedule
 from bson import ObjectId
 from application.utils.pagination import Pagination

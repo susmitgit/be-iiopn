@@ -1,4 +1,4 @@
-from flask import request, jsonify
+from flask import jsonify
 from application.utils.auth import requires_auth
 from application.api import api as api_auth
 from application.models import Business

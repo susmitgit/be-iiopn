@@ -21,9 +21,9 @@ def get_favourites():
     return jsonify(result=exclude_mongo_id(data))
 
 
-@api_auth.route("/search", methods=["GET"])
+@api_auth.route("/business_search", methods=["GET"])
 @requires_auth
-def search():
+def business_search():
     incoming = request.args
     data = []
     page = incoming.get('page', 1)
@@ -33,6 +33,21 @@ def search():
     elif incoming.get('favourite', None):
         # Favourite search
         data = Favourite.search_favourite(search_txt=incoming['favourite'], page=page)
+    if not Search.valid(incoming):
+        return error.bad_request()
+    # Business search
+    data = exclude_mongo_id(Business.search_business(search_txt=incoming['q']))
+    return jsonify(result=exclude_mongo_id(data))
+
+
+@api_auth.route("/favourite_search", methods=["GET"])
+@requires_auth
+def favourite_search():
+    incoming = request.args
+    if not Search.valid(incoming):
+        return error.bad_request()
+    # Favourite search
+    data = exclude_mongo_id(Favourite.search_favourite(search_txt=incoming['q']))
     return jsonify(result=exclude_mongo_id(data))
 
 

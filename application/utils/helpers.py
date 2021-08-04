@@ -7,7 +7,6 @@ def transform_raw_schedule(raw_schedule: object = {}):
 
 
 def exclude_mongo_id(data=None):
-
     if type(data) == list:
         for d in data:
             if d and d.get('_id', None):

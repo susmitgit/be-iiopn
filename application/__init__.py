@@ -1,11 +1,13 @@
 import os
 import logging
 
-from flask import Flask, render_template
+from flask import Flask
 from flask_bcrypt import Bcrypt
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from config import app_config
+
+from application.api.error_response import ErrorResponses
 
 bcrypt = Bcrypt()
 
@@ -31,16 +33,26 @@ def create_app(config_name):
     @limiter.limit("10/minute")
     def index():
         logging.info("Hitting Root")
-        return render_template('index.html')
+        return 'Is it open? API working fine'
 
     @app.route('/<path:path>', methods=['GET'])
     def any_root_path(path):
-        return render_template('index.html')
+        return 'Is it open? API working fine'
 
     @app.errorhandler(500)
     def internal_server_error(error):
         logging.error(str(error))
-        return render_template('errors/500.html', title='Server Error'), 500
+        return ErrorResponses.internal_server_error(message=str(error))
+
+    @app.errorhandler(429)
+    def api_rate_limit(error):
+        logging.error(str(error))
+        return ErrorResponses.api_rate_limit_error(message=str(error))
+
+    @app.errorhandler(405)
+    def method_not_allowed(error):
+        logging.error(str(error))
+        return ErrorResponses.method_not_allowed()
 
     from .api import api as api_base
     app.register_blueprint(api_base, url_prefix='/api/v1')

@@ -4,6 +4,7 @@ from application.api import api as api_auth
 from application.models import User, Favourite, FavouriteBusiness, Business, UserFavourite
 from application.api.error_response import ErrorResponses as error
 from application.utils.helpers import exclude_mongo_id
+from application.app_config import AppConfig
 from bson import ObjectId
 
 
@@ -25,12 +26,13 @@ def get_favourites():
 def search():
     incoming = request.args
     data = []
+    page = incoming.get('page', 1)
     if incoming.get('business', None):
         # Business search
-        data = exclude_mongo_id(Business.search_business(search_txt=incoming['business']))
+        data = Business.search_business(search_txt=incoming['business'], page=page)
     elif incoming.get('favourite', None):
         # Favourite search
-        data = exclude_mongo_id(Favourite.search_favourite(search_txt=incoming['favourite']))
+        data = Favourite.search_favourite(search_txt=incoming['favourite'], page=page)
     return jsonify(result=exclude_mongo_id(data))
 
 

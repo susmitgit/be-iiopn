@@ -1,7 +1,7 @@
 from bson import ObjectId
 from mongokat import Collection
-from application.utils.helpers import transform_raw_schedule
-
+from application.utils.helpers import transform_raw_schedule, escape_search_special_chars
+from application.utils.pagination import Pagination
 
 class BusinessCollection(Collection):
 
@@ -18,5 +18,7 @@ class BusinessCollection(Collection):
         else:
             return []
 
-    def search_business(self, search_txt):
-        return [transform_raw_schedule(a) for a in list(self.find({"name": {"$regex": search_txt, "$options": "i"}}))]
+    def search_business(self, search_txt, page=1):
+        find = {"name": {"$regex": escape_search_special_chars(search_txt), "$options": "i"}}
+        paging = Pagination()
+        return paging.paginated_query(query=find, page=int(page), db_instance=self)

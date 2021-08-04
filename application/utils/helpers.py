@@ -19,3 +19,10 @@ def exclude_mongo_id(data=None):
             del data['_id']
     return data
 
+
+def escape_search_special_chars(val):
+    escape_chars = ['$', '#', '.', '@', '>', '/', '^', '~']
+    for each_char in escape_chars:
+        val = val.replace(each_char, f"\{each_char}", -1)
+    return val
+

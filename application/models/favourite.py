@@ -2,6 +2,8 @@ from mongokat import Collection
 from flask import request, jsonify, g
 from application.utils.helpers import transform_raw_schedule
 from bson import ObjectId
+from application.utils.pagination import Pagination
+from application.utils.helpers import escape_search_special_chars
 
 
 class FavouriteCollection(Collection):
@@ -26,5 +28,7 @@ class FavouriteCollection(Collection):
         else:
             return None
 
-    def search_favourite(self, search_txt):
-        return list(self.find({"name": {"$regex": search_txt, "$options": "i"}, 'u_id': g.current_user['id']}))
+    def search_favourite(self, search_txt, page=1):
+        find = {"name": {"$regex": escape_search_special_chars(search_txt), "$options": "i"}, 'u_id': g.current_user['id']}
+        paging = Pagination()
+        return paging.paginated_query(query=find, page=int(page), db_instance=self)

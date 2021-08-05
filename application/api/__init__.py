@@ -1,4 +1,5 @@
-from flask import Blueprint, jsonify, render_template
+from flask import Blueprint
+from application.api.error_response import ErrorResponses
 
 api = Blueprint('api_base', __name__)
 
@@ -7,25 +8,33 @@ from . import users, business, schedule
 
 api_base = api
 
+@api_base.errorhandler(400)
+def bad_request(error):
+    return ErrorResponses.bad_request()
+
+@api_base.errorhandler(401)
 @api_base.errorhandler(403)
 def forbidden(error):
-    return render_template('errors/403.html', title='Forbidden'), 403
+    return ErrorResponses.unauthorised_access()
 
 @api_base.errorhandler(404)
 def page_not_found(error):
-    return render_template('errors/404.html', title='Page Not Found'), 404
+    return ErrorResponses.not_found()
 
 @api_base.errorhandler(405)
 def method_not_allowed(error):
-    return jsonify(message="Method Not Allowed for the requested URLee."), 401
+    return ErrorResponses.method_not_allowed()
+
+@api_base.errorhandler(429)
+def rate_limit(error):
+    return ErrorResponses.api_rate_limit_error(message=str(error))
 
 @api_base.errorhandler(500)
 def internal_server_error(error):
-    return render_template('errors/500.html', title='Server Error'), 500
+    return ErrorResponses.internal_server_error(message=str(error))
 
 @api_base.before_request
 def before_request():
-
     pass
     # check for Idle time & expiration
     # flask.g.user = current_user

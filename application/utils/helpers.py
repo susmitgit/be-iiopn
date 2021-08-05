@@ -7,7 +7,6 @@ def transform_raw_schedule(raw_schedule: object = {}):
 
 
 def exclude_mongo_id(data=None):
-
     if type(data) == list:
         for d in data:
             if d and d.get('_id', None):
@@ -18,4 +17,11 @@ def exclude_mongo_id(data=None):
             data['id'] = str(data['_id'])
             del data['_id']
     return data
+
+
+def escape_search_special_chars(val):
+    escape_chars = ['$', '#', '.', '@', '>', '/', '^', '~']
+    for each_char in escape_chars:
+        val = val.replace(each_char, f"\{each_char}", -1)
+    return val
 

@@ -8,6 +8,11 @@ from . import users, business, schedule
 
 api_base = api
 
+@api_base.errorhandler(400)
+def bad_request(error):
+    return ErrorResponses.bad_request()
+
+@api_base.errorhandler(401)
 @api_base.errorhandler(403)
 def forbidden(error):
     return ErrorResponses.unauthorised_access()
@@ -20,9 +25,13 @@ def page_not_found(error):
 def method_not_allowed(error):
     return ErrorResponses.method_not_allowed()
 
+@api_base.errorhandler(429)
+def rate_limit(error):
+    return ErrorResponses.api_rate_limit_error(message=str(error))
+
 @api_base.errorhandler(500)
 def internal_server_error(error):
-    return ErrorResponses.internal_server_error()
+    return ErrorResponses.internal_server_error(message=str(error))
 
 @api_base.before_request
 def before_request():

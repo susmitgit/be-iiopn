@@ -29,6 +29,7 @@ class FavouriteCollection(Collection):
             return None
 
     def search_favourite(self, search_txt, page=1):
-        find = {"name": {"$regex": escape_search_special_chars(search_txt), "$options": "i"}, 'u_id': g.current_user['id']}
+        find = {"name": {"$regex": escape_search_special_chars(search_txt), "$options": "i"},
+                'u_id': g.current_user['id']}
         paging = Pagination()
         return paging.paginated_query(query=find, page=int(page), db_instance=self)

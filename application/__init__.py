@@ -3,9 +3,10 @@ import logging
 
 from flask import Flask
 from flask_bcrypt import Bcrypt
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
+
+
 from config import app_config
+from application.api_conf.api_config import ApiConfig
 
 from application.api.error_response import ErrorResponses
 
@@ -17,17 +18,8 @@ def create_app(config_name):
     app.config.from_object(app_config[config_name])
     app.config.from_pyfile('config.py')
     bcrypt.init_app(app)
-    limiter = Limiter(
-        app,
-        key_func=get_remote_address,
-        default_limits=["2000/day", "300/hour", "50/minute"]
-    )
-    log_level = logging.DEBUG
-    if app_config[config_name] == 'production':
-        log_level = logging.ERROR
-
-    logging.basicConfig(filename='logs/be_server.log', level=log_level,
-                        format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+    limiter = ApiConfig.init_rate_limit(app_instance=app)
+    ApiConfig.init_log(config_name=config_name)
 
     @app.route('/', methods=['GET'])
     @limiter.limit("10/minute")

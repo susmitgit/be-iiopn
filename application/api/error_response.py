@@ -3,8 +3,11 @@ from flask import jsonify
 
 class ErrorResponses:
     @staticmethod
-    def not_found():
+    def not_found(message=None):
+        if message:
+            return jsonify(error={'status_code': 404, 'message': f'[ {message} ] Resource not found'}), 404
         return jsonify(error={'status_code': 404, 'message': 'Resource not found'}), 404
+
     @staticmethod
     def bad_request():
         return jsonify(error={'status_code': 400, 'message': 'Bad request'}), 400
@@ -18,14 +21,16 @@ class ErrorResponses:
         return jsonify(error={'status_code': 405, 'message': 'Method not allowed'}), 405
 
     @staticmethod
-    def resource_exists():
+    def resource_exists(resource=None):
+        if resource:
+            return jsonify(error={'status_code': 409, 'message': f'[{resource}] Resource exists'}), 409
         return jsonify(error={'status_code': 409, 'message': 'Resource exists'}), 409
 
     @staticmethod
     def required_filed(fields=[]):
         seperator = ', '
-        return jsonify(error={'status_code': 400, 'message': f'[ {seperator.join(fields)} ] missing either or '
-                                                             f'required fields'}), 400
+        return jsonify(error={'status_code': 400, 'message': f'Either missing required [ {seperator.join(fields)} ] or '
+                                                             f'value error'}), 400
 
     @staticmethod
     def internal_server_error(message=None):

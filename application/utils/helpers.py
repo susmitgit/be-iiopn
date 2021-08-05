@@ -1,4 +1,4 @@
-@staticmethod
+
 def transform_raw_schedule(raw_schedule: object = {}):
     if raw_schedule and raw_schedule.get('raw_schedule', None):
         data = {**raw_schedule, **{'b_id': str(raw_schedule['_id']), 'raw_schedule': raw_schedule.get('raw_schedule').title()}}

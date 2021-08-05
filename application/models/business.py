@@ -3,6 +3,7 @@ from mongokat import Collection
 from application.utils.helpers import transform_raw_schedule, escape_search_special_chars
 from application.utils.pagination import Pagination
 
+
 class BusinessCollection(Collection):
 
     __collection__ = 'business'

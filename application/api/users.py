@@ -171,7 +171,7 @@ def create_user():
     incoming = request.get_json()
     try:
         username = incoming['username']
-        if not CreateUserValidation.is_valid_email({'username': username}):
+        if not CreateUserValidation.is_valid_username({'username': username}):
             return error.required_filed(['username'])
 
         email = incoming['email']
@@ -179,7 +179,7 @@ def create_user():
             return error.required_filed(['email'])
 
         password = incoming['password']
-        if not CreateUserValidation.is_valid_email({'password': password}):
+        if not CreateUserValidation.is_valid_password({'password': password}):
             return error.required_filed(['password with minimum 6 character length'])
     except:
         return error.bad_request()
@@ -202,7 +202,7 @@ def create_user():
 
 
 @api_auth.route("/authenticate", methods=["POST"])
-def authorize():
+def authenticate():
     incoming = request.get_json()
     try:
         email = incoming['email']
@@ -210,7 +210,7 @@ def authorize():
             return error.required_filed(['email'])
 
         password = incoming['password']
-        if not CreateUserValidation.is_valid_email({'password': password}):
+        if not CreateUserValidation.is_valid_password({'password': password}):
             return error.required_filed(['password with minimum 6 character length'])
     except:
         return error.bad_request()
@@ -224,7 +224,7 @@ def authorize():
 
 
 @api_auth.route("/authorize", methods=["POST"])
-def is_token_valid():
+def authorize():
     incoming = request.get_json()
     is_valid = verify_token(incoming["token"])
 

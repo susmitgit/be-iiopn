@@ -62,7 +62,6 @@ local_settings.py
 .scrapy
 
 # Sphinx documentation
-docs/_build/
 
 # PyBuilder
 target/

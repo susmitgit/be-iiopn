@@ -1212,3 +1212,27 @@
 2021-08-08 18:54:55,122 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:55] "GET /manifest.json HTTP/1.1" 200 -
 2021-08-08 18:54:55,129 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:55] "GET /favicon.ico HTTP/1.1" 200 -
 2021-08-08 18:54:55,159 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:55] "GET /logo192.png HTTP/1.1" 200 -
+2021-08-09 00:22:48,526 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:22:48] "GET /api/v1/schedule?page=3 HTTP/1.1" 200 -
+2021-08-09 00:23:00,171 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:23:00] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-09 00:46:22,813 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:46:22] "GET /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1" 200 -
+2021-08-09 00:47:07,225 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:47:07] "[33mGET /business/610ee4bf973f91a0d3d9e425 HTTP/1.1[0m" 404 -
+2021-08-09 00:47:09,028 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:47:09] "[33mGET /business/610ee4bf973f91a0d3d9e425 HTTP/1.1[0m" 404 -
+2021-08-09 00:48:10,786 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:48:10] "[33mGET /business/610ee4bf973f91a0d3d9e425 HTTP/1.1[0m" 404 -
+2021-08-09 00:48:47,399 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:48:47] "GET /api/v1/business/610ee4bf973f91a0d3d9e425 HTTP/1.1" 200 -
+2021-08-09 00:54:44,759 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:54:44] "GET / HTTP/1.1" 200 -
+2021-08-09 00:56:15,798 ERROR root Thread-7 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-09 00:56:15,799 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:56:15] "[31m[1mPOST /api/v1/share_favourite HTTP/1.1[0m" 405 -
+2021-08-09 00:56:44,005 ERROR root Thread-7 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-09 00:56:44,009 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:56:44] "[31m[1mPOST /api/v1/share_favourite HTTP/1.1[0m" 405 -
+2021-08-09 00:57:02,134 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:57:02] "POST /api/v1/share_favourites HTTP/1.1" 200 -
+2021-08-09 00:59:10,661 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:59:10] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-09 00:59:11,349 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:59:11] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-09 00:59:22,945 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:59:22] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-09 00:59:23,912 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:59:23] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-09 01:03:27,040 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 01:03:27] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-09 01:05:19,834 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 01:05:19] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-09 01:05:25,620 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 01:05:25] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-09 01:11:34,003 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/frontend/node_modules/node-gyp/update-gyp.py', reloading
+2021-08-09 01:11:35,852 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-09 01:11:46,040 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-09 01:11:46,074 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136

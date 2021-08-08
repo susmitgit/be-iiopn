@@ -1,17 +1,27 @@
+import { createBrowserHistory } from 'history';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import { BrowserRouter, Router, Redirect } from 'react-router';
+import { syncHistoryWithStore } from 'react-router-redux';
+
+import configureStore from './store/configureStore';
+import routes from './routes';
+import './style.scss';
+import { App } from './containers/App';
+
+// require('expose?$!expose?jQuery!jquery');
+// require('bootstrap-webpack');
+
+const store = configureStore();
+const bh = createBrowserHistory();
+const history = syncHistoryWithStore(bh, store);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<Provider store={store}>
+		<Router history={history}>
+			<App>{routes}</App>
+		</Router>
+	</Provider>,
+	document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

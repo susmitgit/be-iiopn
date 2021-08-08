@@ -1,15 +1,13 @@
-from mongokat import Collection
 from werkzeug.security import generate_password_hash, check_password_hash
+from application.models.base_model import BaseModel
 
-
-class UserCollection(Collection):
+class UserCollection(BaseModel):
 
     __collection__ = 'users'
-    structure = {'email': str, 'password': str, 'username': str}
-    protected_fields = ('password')
 
-    def __init__(self, db, *args, **kwargs):
-        Collection.__init__(self, collection=db[self.__collection__], *args, **kwargs)
+    def __init__(self, db):
+        self.db = db[self.__collection__]
+        super(UserCollection, self).__init__(db=self.db)
 
     @staticmethod
     def hashed_password(password):
@@ -21,3 +19,4 @@ class UserCollection(Collection):
             return user
         else:
             return None
+

@@ -20,4 +20,6 @@ def get_business_with_name(id):
     if b_id:
         return jsonify(result=Business.get_business_with_business_id(id=b_id))
     else:
-        return jsonify(result={})
+        return error.not_found(
+            message='business'
+        )

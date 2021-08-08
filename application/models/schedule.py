@@ -1,18 +1,19 @@
 from datetime import datetime
-from mongokat import Collection
 from application.models.business import BusinessCollection
 from application.utils.helpers import exclude_mongo_id
 from application.utils.pagination import Pagination
+from application.models.base_model import BaseModel
 
-class ScheduleCollection(Collection):
+
+class ScheduleCollection(BaseModel):
 
     __collection__ = 'schedule'
-    structure = {'b_id': str, 'b_day': int, 'b_open': int, 'b_close': int}
     business_collection = None
 
-    def __init__(self, db, *args, **kwargs):
-        Collection.__init__(self, collection=db[self.__collection__], *args, **kwargs)
-        self.business_collection = BusinessCollection(db)
+    def __init__(self, db):
+        self.db = db[self.__collection__]
+        self.business_collection = BusinessCollection(db=db)
+        super(ScheduleCollection, self).__init__(db=self.db)
 
     def get_schedule_with_business_id(self, id: str):
         schedules = self.find({'b_id': id})
@@ -21,7 +22,7 @@ class ScheduleCollection(Collection):
         else:
             return None
 
-    def get_schedule_with_business_day(self, b_day: int):
+    def get_schedule_with_business_day(self):
         schedules = self.find({'b_day': id})
         if schedules:
             return list(schedules)
@@ -33,7 +34,7 @@ class ScheduleCollection(Collection):
         find_time = f'{dt.hour}{dt.minute}'
         paging = Pagination()
         find_q = {'b_day': b_day, 'b_open': {'$lte': int(find_time)}, 'b_close': {'$gte': int(find_time)}}
-        schedules = paging.paginated_query(query=find_q, page=page, db_instance=self)
+        schedules = paging.paginated_query(query=find_q, page=page, db_instance=self.db)
         # schedules = list(self.find(find_q)) or []
         resp_data = []
         # Attach business with the schedule

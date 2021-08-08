@@ -5,7 +5,7 @@ from flask_limiter.util import get_remote_address
 
 class ApiConfig:
     DEFAULT_PAGE_SIZE = 2
-    DEFAULT_API_RATE_LIMIT = ["200/day", "300/hour", "50/minute"]
+    DEFAULT_API_RATE_LIMIT = ["20000/day", "3000/hour", "500/minute"]
 
     @staticmethod
     def init_log(config_name='production'):

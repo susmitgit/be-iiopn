@@ -7,6 +7,10 @@
     <orderEntry type="jdk" jdkName="Python 3.7 (be-iiopn)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="removeUnused" value="true" />
+    <option name="keepMatchingSpecifier" value="false" />
+  </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
   </component>

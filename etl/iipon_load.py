@@ -6,6 +6,8 @@ collection_schedule = 'schedule'
 collection_business = 'business'
 
 dbCon = None
+
+
 # Helpers methods
 # Business name extract from the read line string
 def extract_business_name(line):
@@ -14,7 +16,6 @@ def extract_business_name(line):
 
 # Transform time string to searchable form
 def time_str(dt_str, meridian=None):
-
     # Last two bits handle:
     if ':' in dt_str:
         last_two_bit = dt_str.split(":")[1]
@@ -75,7 +76,6 @@ def transform_day_number(day, reverse=None):
 
 # Extract business operation time Open / Close
 def extract_operation_time(b_time: str = None, data_day: str = None, line: str = None):
-
     b_time.lower().replace(transform_day_number(day=data_day, reverse=True), "")
     # Time - time break up
     times = b_time.split("-")
@@ -85,8 +85,6 @@ def extract_operation_time(b_time: str = None, data_day: str = None, line: str =
 
     # Open Time Analysis
     open_time = times[0].lower()
-    am_time = None
-    pm_time = None
 
     if 'am' in open_time:
         am_time = open_time.split('am')[0].lstrip(' ').rstrip(' ')
@@ -97,8 +95,7 @@ def extract_operation_time(b_time: str = None, data_day: str = None, line: str =
 
     # Close time analysis
     close_time = times[1].lower()
-    am_time = None
-    pm_time = None
+
     if 'am' in close_time:
         am_time = close_time.split('am')[0].lstrip(' ').rstrip(' ')
         business_close = time_str(dt_str=am_time, meridian='am')
@@ -137,23 +134,23 @@ def insert_business_schedule(line: str = None, business_id: str = None):
             # Next Day Adjusted time for next day - Considering next day close will not be passed the open time
             if business_open > business_close:
                 cur_update_obj = {
-                                  'b_id': business_id,
-                                  'b_day': data_day,
-                                  'b_open': business_open,
-                                  'b_close': 2359}
+                    'b_id': business_id,
+                    'b_day': data_day,
+                    'b_open': business_open,
+                    'b_close': 2359}
                 insert_data(data=cur_update_obj, collection=collection_schedule)
                 nxt_update_obj = {
-                                  'b_id': business_id,
-                                  'b_day': data_day + 1 if data_day + 1 < 7 else data_day + 1 - 7,
-                                  'b_open': 0000,
-                                  'b_close': business_close}
+                    'b_id': business_id,
+                    'b_day': data_day + 1 if data_day + 1 < 7 else data_day + 1 - 7,
+                    'b_open': 0000,
+                    'b_close': business_close}
                 insert_data(data=nxt_update_obj, collection=collection_schedule)
             else:
                 update_obj = {
-                              'b_id': business_id,
-                              'b_day': data_day,
-                              'b_open': business_open,
-                              'b_close': business_close}
+                    'b_id': business_id,
+                    'b_day': data_day,
+                    'b_open': business_open,
+                    'b_close': business_close}
                 insert_data(data=update_obj, collection=collection_schedule)
     return True
 
@@ -162,7 +159,7 @@ def db_connect():
     global dbCon
     try:
         if not dbCon:
-            client = MongoClient(port=int(os.getenv('DATABASE_PORT', '27017')), host=os.getenv('DATABASE_HOST', 'localhost'))
+            client = MongoClient(os.getenv('DATABASE_URI'), tlsAllowInvalidCertificates=True)
             db = client[os.getenv('DATABASE_NAME', 'test')]
             dbCon = db
         return dbCon
@@ -204,7 +201,7 @@ def insert_business_name(b_name: str = None, raw_schedule: str = None):
 def main():
     # Main program
     raw_file = 'transformed_hours.csv'
-    output = {}
+    {}
     all_business_names = []
     duplicate_business = []
 

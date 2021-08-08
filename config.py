@@ -1,4 +1,3 @@
-from basedir import basedir, os
 
 
 class Config(object):

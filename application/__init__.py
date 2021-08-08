@@ -1,6 +1,6 @@
 import logging
-
-from flask import Flask
+import os
+from flask import Flask, render_template, send_from_directory
 from flask_bcrypt import Bcrypt
 
 from config import app_config
@@ -12,7 +12,8 @@ bcrypt = Bcrypt()
 
 
 def create_app(config_name):
-    app = Flask(__name__, instance_relative_config=True)
+
+    app = Flask(__name__, static_folder='../static/build', static_url_path='/', instance_relative_config=True)
     app.config.from_object(app_config[config_name])
     app.config.from_pyfile('config.py')
 
@@ -21,10 +22,12 @@ def create_app(config_name):
     ApiConfig.init_log(config_name=config_name)
 
     @app.route('/', methods=['GET'])
-    @limiter.limit("10/minute")
-    def index():
-        logging.info("Hitting Root")
-        return 'Is it open? API working fine'
+    @limiter.limit("1000/minute")
+    def index(path=''):
+        if path and path != "" and os.path.exists(app.static_folder + '/' + path):
+            return send_from_directory(app.static_folder, path)
+        else:
+            return send_from_directory(app.static_folder, 'index.html')
 
     @app.route('/<path:path>', methods=['GET'])
     def any_root_path():

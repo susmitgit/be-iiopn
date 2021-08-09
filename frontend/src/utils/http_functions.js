@@ -3,8 +3,11 @@
 import axios from 'axios';
 
 const DEFAULT_HEADER = {
-	'Content-Type': 'application/json'
+	'Content-Type': 'application/json',
+	'Access-Control-Allow-Origin': '*'
 };
+
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL || 'https://be-iiopn.herokuapp.com/';
 
 const tokenConfig = (token) => ({
 	headers: Object.assign({}, DEFAULT_HEADER, {

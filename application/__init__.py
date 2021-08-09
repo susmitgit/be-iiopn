@@ -2,6 +2,7 @@ import logging
 import os
 from flask import Flask, render_template, send_from_directory
 from flask_bcrypt import Bcrypt
+from flask_cors import CORS
 
 from config import app_config
 from application.api_conf.api_config import ApiConfig
@@ -14,6 +15,7 @@ bcrypt = Bcrypt()
 def create_app(config_name):
 
     app = Flask(__name__, static_folder='../frontend/build', static_url_path='/', instance_relative_config=True)
+    CORS(app)
     app.config.from_object(app_config[config_name])
     app.config.from_pyfile('config.py')
 

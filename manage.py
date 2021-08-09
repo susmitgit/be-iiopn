@@ -8,6 +8,5 @@ app = create_app(config_name)
 
 manager = Manager(app)
 
-
 if __name__ == '__main__':
     manager.run()

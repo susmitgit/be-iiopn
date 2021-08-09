@@ -12,7 +12,6 @@ def from_to_day_gen(from_day, to_day):
         if dy == from_day:
             start = True
         if dy == to_day and start:
-            start = None
             ret_days.append(dy)
             break
         if start:

@@ -1,9 +1,8 @@
-import os
 import logging
-
-from flask import Flask
+import os
+from flask import Flask, render_template, send_from_directory
 from flask_bcrypt import Bcrypt
-
+from flask_cors import CORS
 
 from config import app_config
 from application.api_conf.api_config import ApiConfig
@@ -14,21 +13,26 @@ bcrypt = Bcrypt()
 
 
 def create_app(config_name):
-    app = Flask(__name__, instance_relative_config=True)
+
+    app = Flask(__name__, static_folder='../frontend/build', static_url_path='/', instance_relative_config=True)
+    CORS(app)
     app.config.from_object(app_config[config_name])
     app.config.from_pyfile('config.py')
+
     bcrypt.init_app(app)
     limiter = ApiConfig.init_rate_limit(app_instance=app)
     ApiConfig.init_log(config_name=config_name)
 
     @app.route('/', methods=['GET'])
-    @limiter.limit("10/minute")
-    def index():
-        logging.info("Hitting Root")
-        return 'Is it open? API working fine'
+    @limiter.limit("1000/minute")
+    def index(path=''):
+        if path and path != "" and os.path.exists(app.static_folder + '/' + path):
+            return send_from_directory(app.static_folder, path)
+        else:
+            return send_from_directory(app.static_folder, 'index.html')
 
     @app.route('/<path:path>', methods=['GET'])
-    def any_root_path(path):
+    def any_root_path():
         return 'Is it open? API working fine'
 
     @app.errorhandler(500)

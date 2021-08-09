@@ -1,4 +1,3 @@
-import cerberus
 from cerberus import Validator
 from bson import ObjectId
 
@@ -67,7 +66,6 @@ class SearchRequestValidation:
 
     is_valid_search_text = Validator(search_text)
     is_valid_page = Validator(page)
-
 
 # class CreateFavourite:
 #

@@ -1,0 +1,1238 @@
+2021-08-03 23:04:58,820 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-03 23:04:58,824 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-03 23:05:00,618 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-03 23:05:00,630 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-03 23:05:02,159 INFO root Thread-8 : Hitting Root
+2021-08-03 23:05:02,175 INFO werkzeug Thread-8 : 127.0.0.1 - - [03/Aug/2021 23:05:02] "[37mGET / HTTP/1.1[0m" 200 -
+2021-08-03 23:05:03,816 INFO root Thread-8 : Hitting Root
+2021-08-03 23:05:03,818 INFO werkzeug Thread-8 : 127.0.0.1 - - [03/Aug/2021 23:05:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-08-03 23:09:34,595 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-03 23:09:34,752 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-03 23:09:36,481 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-03 23:09:36,494 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 00:15:14,364 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 00:15:14,605 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 00:15:16,250 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 00:15:16,259 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 00:16:25,150 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 00:16:25,299 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 00:16:26,995 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 00:16:27,005 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 00:16:35,263 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 00:16:35,420 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 00:16:36,965 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 00:16:36,973 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 00:16:40,078 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 00:16:40,178 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 00:16:41,476 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 00:16:41,485 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:01:26,870 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 01:01:27,390 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:01:30,644 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:01:30,656 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:07:36,227 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 01:07:36,331 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:16:44,325 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 01:16:44,327 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:16:44,978 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:16:44,986 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:16:57,397 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 01:16:57,400 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:17:01,776 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:17:01,784 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:18:29,144 INFO werkzeug Thread-10 : 127.0.0.1 - - [04/Aug/2021 01:18:29] "[37mGET /api/v1/search?favourite=fav HTTP/1.1[0m" 200 -
+2021-08-04 01:20:08,609 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-04 01:20:08,750 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:20:10,570 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:20:10,581 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:20:16,952 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 01:20:16,954 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:20:18,964 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:20:18,979 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:22:44,831 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 01:22:44,834 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:22:46,957 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:22:46,965 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:23:53,990 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/config.py', reloading
+2021-08-04 01:23:54,116 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:23:56,282 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:23:56,299 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:25:36,084 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:25:36,230 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:25:37,587 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:25:37,596 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:25:40,715 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:25:40,911 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:25:42,499 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:25:42,509 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:25:54,867 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/app_config.py', reloading
+2021-08-04 01:25:55,028 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:25:56,436 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:25:56,445 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:25:58,520 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/config.py', reloading
+2021-08-04 01:25:58,603 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:25:59,994 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:26:00,005 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:29:07,794 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-04 01:29:07,893 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:29:09,490 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:29:09,501 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:31:56,197 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:31:56,441 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:31:58,451 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:31:58,460 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:33:57,688 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 01:33:57,838 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:33:59,401 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:33:59,410 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:34:53,874 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 01:34:54,003 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:34:55,485 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:34:55,495 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:36:58,073 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:36:58,384 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:42:14,322 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 01:42:14,325 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:42:15,600 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:42:15,615 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:43:08,234 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 01:43:08,237 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:43:10,013 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:43:10,026 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:44:04,701 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:44:04,849 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:44:06,421 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:44:06,430 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:45:18,209 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 01:45:18] "[37mGET /api/v1/search?favourite=f&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 01:45:34,971 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 01:45:34] "[37mGET /api/v1/search?favourite=f&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 01:46:32,420 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 01:46:32] "[37mGET /api/v1/search?favourite=0&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 01:48:13,485 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:48:13,723 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:48:16,337 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:48:16,348 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:49:41,625 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:49:41,795 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:49:43,514 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:49:43,523 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:49:47,107 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 01:49:47,109 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:49:48,451 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:49:48,460 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:51:41,273 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 01:51:41,276 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:51:42,626 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:51:42,636 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:52:05,395 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:52:05,567 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:52:07,571 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:52:07,579 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 01:53:22,995 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 01:53:23,154 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 01:53:24,841 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 01:53:24,849 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:00:55,357 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:00:55,589 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:00:58,040 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:00:58,054 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:01:00,145 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:01:00,305 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:01:01,795 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:01:01,806 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:01:05,965 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:01:06,123 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:01:08,419 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:01:08,431 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:01:23,203 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:01:23] "[37mGET /api/v1/search?favourite=0&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:03:25,804 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:03:25,957 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:03:27,654 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:03:27,665 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:03:40,022 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:03:40,146 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:03:41,768 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:03:41,779 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:04:08,486 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:04:08] "[37mGET /api/v1/search?favourite=0&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:06:36,582 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:06:36,816 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:06:38,470 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:06:38,480 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:06:40,218 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:06:40] "[37mGET /api/v1/search?favourite=0&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:11:01,858 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:11:02,074 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:11:03,812 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:11:03,828 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:11:06,825 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:11:06] "[37mGET /api/v1/search?favourite=0&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:11:23,550 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/app_config.py', reloading
+2021-08-04 02:11:23,700 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:11:25,014 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:11:25,030 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:11:33,576 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:11:33] "[37mGET /api/v1/search?favourite=0&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:11:48,579 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 02:11:48,582 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:11:50,242 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:11:50,254 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:11:56,125 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:11:56] "[37mGET /api/v1/search?favourite=0&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:12:11,183 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:12:11] "[37mGET /api/v1/search?favourite=f&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:13:12,955 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:13:13,075 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:13:14,809 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:13:14,818 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:14:32,112 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:14:32] "[37mGET /api/v1/search?favourite=f&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:17:39,604 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:17:39,733 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:17:41,301 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:17:41,311 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:17:53,205 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:17:53] "[37mGET /api/v1/search?favourite=f&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:18:30,337 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:18:30] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:21:26,539 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:21:26,786 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:21:29,040 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:21:29,051 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:21:37,544 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:21:37] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:22:25,739 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:22:25,909 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:22:27,899 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:22:27,910 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:22:32,827 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:22:32] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:22:45,384 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:22:45] "[37mGET /api/v1/search?favourite=f&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:23:04,597 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:23:04] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:24:40,194 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:24:40] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:24:43,722 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:24:43] "[37mGET /api/v1/search?favourite=f&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:28:22,209 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:28:22,799 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:28:24,926 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:28:24,938 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:28:34,842 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:28:34] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:29:39,340 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 02:29:39,343 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:29:40,754 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:29:40,763 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:30:07,801 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:30:07] "[37mGET /api/v1/search?favourite=f&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:32:17,815 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:32:17,990 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:32:20,202 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:32:20,212 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:32:24,537 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:32:24] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:33:42,837 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:33:43,459 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:33:45,464 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:33:45,473 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:33:50,366 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:33:50] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:34:06,732 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:34:06] "[37mGET /api/v1/search?favourite=f&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:35:23,723 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:35:23] "[37mGET /api/v1/search?favourite=f&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:36:17,001 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 02:36:17,004 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:36:18,310 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:36:18,320 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:36:19,709 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:36:19] "[37mGET /api/v1/search?favourite=f&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:36:25,729 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:36:25] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:36:35,394 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:36:35] "[37mGET /api/v1/search?favourite=f&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:36:42,107 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:36:42] "[37mGET /api/v1/search?favourite=f&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:36:53,869 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:36:53] "[37mGET /api/v1/search?favourite=f&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:37:28,727 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:37:28] "[35m[1mGET /api/v1/search?favourite=%27%27&page=3 HTTP/1.1[0m" 500 -
+2021-08-04 02:43:38,949 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/helpers.py', reloading
+2021-08-04 02:43:39,209 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:43:42,707 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:43:42,786 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:44:08,642 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/favourite.py', reloading
+2021-08-04 02:44:08,826 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:44:10,403 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:44:10,412 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:44:20,367 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:44:20] "[35m[1mGET /api/v1/search?favourite=%27%27&page=3 HTTP/1.1[0m" 500 -
+2021-08-04 02:46:39,133 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 02:46:39,136 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:46:41,038 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:46:41,049 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:46:56,487 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:46:56] "[35m[1mGET /api/v1/search?favourite=%27%27&page=3 HTTP/1.1[0m" 500 -
+2021-08-04 02:47:29,916 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:47:29] "[35m[1mGET /api/v1/search?favourite=%27%27&page=3 HTTP/1.1[0m" 500 -
+2021-08-04 02:50:46,447 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:50:46,644 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:50:49,728 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:50:49,739 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:50:59,022 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:50:59,125 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:51:00,455 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:51:00,463 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:51:25,859 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:51:25] "[37mGET /api/v1/search?favourite=%27%27&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:51:53,095 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:51:53] "[37mGET /api/v1/search?favourite=%27fav&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:52:03,489 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:52:03] "[37mGET /api/v1/search?favourite=fav&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:52:16,709 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:52:16] "[37mGET /api/v1/search?favourite=fav%202&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:52:32,078 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:52:32] "[37mGET /api/v1/search?favourite=%27fav%202%27&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:52:44,216 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:52:44] "[37mGET /api/v1/search?favourite=%27fav%27&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:52:58,467 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:52:58] "[37mGET /api/v1/search?favourite=fav&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:53:20,511 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:53:20] "[37mGET /api/v1/search?favourite=33&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:53:28,462 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:53:28] "[37mGET /api/v1/search?favourite=33&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:55:23,037 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:55:23,251 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:55:25,297 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:55:25,308 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:55:30,509 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:55:30] "[37mGET /api/v1/search?favourite=33&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:56:17,194 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:56:17,346 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:56:19,283 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:56:19,295 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:56:23,143 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:56:23] "[37mGET /api/v1/search?favourite=33&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:56:35,400 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:56:35] "[37mGET /api/v1/search?favourite=3&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 02:56:51,882 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:56:51] "[37mGET /api/v1/search?favourite=3&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 02:56:59,667 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:56:59] "[37mGET /api/v1/search?favourite=3&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:57:13,307 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:57:13] "[37mGET /api/v1/search?favourite=3&page=4 HTTP/1.1[0m" 200 -
+2021-08-04 02:57:18,021 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:57:18] "[37mGET /api/v1/search?favourite=3&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:59:32,883 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:59:33,004 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:59:34,920 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:59:34,930 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:59:45,273 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/utils/pagination.py', reloading
+2021-08-04 02:59:45,417 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 02:59:46,698 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 02:59:46,708 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 02:59:51,326 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:59:51] "[37mGET /api/v1/search?favourite=3&page=3 HTTP/1.1[0m" 200 -
+2021-08-04 02:59:56,102 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 02:59:56] "[37mGET /api/v1/search?favourite=3&page=2 HTTP/1.1[0m" 200 -
+2021-08-04 03:00:00,036 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 03:00:00] "[37mGET /api/v1/search?favourite=3&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 03:00:06,132 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 03:00:06] "[35m[1mGET /api/v1/search?favourite=3&page=0 HTTP/1.1[0m" 500 -
+2021-08-04 03:01:15,555 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 03:01:15,558 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 03:01:16,885 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 03:01:16,897 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 03:01:18,721 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 03:01:18] "[37mGET /api/v1/search?favourite=3&page=0 HTTP/1.1[0m" 200 -
+2021-08-04 03:01:24,283 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 03:01:24] "[37mGET /api/v1/search?favourite=3&page=-1 HTTP/1.1[0m" 200 -
+2021-08-04 03:01:29,380 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 03:01:29] "[37mGET /api/v1/search?favourite=3&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 03:04:47,845 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 03:04:47,848 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 03:04:49,415 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 03:04:49,424 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 03:04:53,823 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 03:04:53] "[37mGET /api/v1/search?favourite=3&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 03:05:06,656 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 03:05:06] "[37mGET /api/v1/search?business=3&page=1 HTTP/1.1[0m" 200 -
+2021-08-04 03:05:15,141 INFO werkzeug Thread-8 : 127.0.0.1 - - [04/Aug/2021 03:05:15] "[37mGET /api/v1/search?business=3&page=13 HTTP/1.1[0m" 200 -
+2021-08-04 03:05:41,862 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/business.py', reloading
+2021-08-04 03:05:42,025 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 03:05:43,698 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 03:05:43,707 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-04 23:37:05,865 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-04 23:37:05,868 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-04 23:37:07,363 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-04 23:37:07,374 INFO werkzeug MainThread :  * Debugger PIN: 223-988-279
+2021-08-05 23:17:14,410 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-05 23:17:14,415 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-05 23:17:15,978 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-05 23:17:15,994 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-05 23:17:21,836 INFO werkzeug Thread-8 : 127.0.0.1 - - [05/Aug/2021 23:17:21] "GET /api/v1/search?business=3&page=13 HTTP/1.1" 200 -
+2021-08-05 23:17:30,001 INFO werkzeug Thread-8 : 127.0.0.1 - - [05/Aug/2021 23:17:30] "GET /api/v1/search?business=3&page=13 HTTP/1.1" 200 -
+2021-08-05 23:17:48,815 INFO werkzeug Thread-8 : 127.0.0.1 - - [05/Aug/2021 23:17:48] "GET /api/v1/business_search?q=ra&page=1 HTTP/1.1" 200 -
+2021-08-05 23:18:29,869 INFO werkzeug Thread-8 : 127.0.0.1 - - [05/Aug/2021 23:18:29] "GET /api/v1/business_search?q=ra&page=1 HTTP/1.1" 200 -
+2021-08-06 00:21:45,295 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:21:45] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:22:06,310 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:22:06] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:22:27,365 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:22:27] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:22:48,321 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:22:48] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:23:09,000 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:23:09] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:23:30,270 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:23:30] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:25:14,745 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:25:14] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:25:35,193 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:25:35] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:25:56,270 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:25:56] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:26:17,333 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:26:17] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:26:38,333 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:26:38] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:26:59,324 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:26:59] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:27:20,322 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:27:20] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 00:29:52,712 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 00:29:52] "GET /__webpack_hmr HTTP/1.1" 200 -
+2021-08-06 22:58:03,046 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-06 22:58:03,059 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 22:58:03] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-06 22:59:28,937 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-06 22:59:28,939 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 22:59:28] "[31m[1mPOST /api/create_user HTTP/1.1[0m" 405 -
+2021-08-06 22:59:50,810 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-06 22:59:50,812 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 22:59:50] "[31m[1mPOST /api/create_user HTTP/1.1[0m" 405 -
+2021-08-06 23:01:16,281 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-06 23:01:16,284 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-06 23:01:17,829 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-06 23:01:17,848 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-06 23:23:53,969 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-06 23:23:53,978 INFO werkzeug Thread-8 : 127.0.0.1 - - [06/Aug/2021 23:23:53] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 00:19:18,732 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 00:19:18,740 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:19:18] "[31m[1mPOST /api/create_user HTTP/1.1[0m" 405 -
+2021-08-07 00:19:34,205 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 00:19:34,208 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:19:34] "[31m[1mPOST /api/create_user HTTP/1.1[0m" 405 -
+2021-08-07 00:25:16,062 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:25:16] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:25:43,326 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:25:43] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:26:11,444 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:26:11] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:27:17,206 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-07 00:27:17,585 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 00:27:19,665 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 00:27:19,678 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 00:27:23,968 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-07 00:27:23,971 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 00:27:25,602 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 00:27:25,612 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 00:27:28,914 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:27:28] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:28:02,598 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-07 00:28:02,794 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 00:28:05,012 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 00:28:05,022 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 00:28:14,384 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-07 00:28:14,387 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 00:28:16,319 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 00:28:16,328 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 00:28:16,913 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:28:16] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-07 00:29:11,843 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:29:11] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:08,641 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:08] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:12,332 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:12] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:15,037 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:15] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:15,216 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:15] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:15,400 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:15] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:15,591 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:15] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:15,798 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:15] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:22,770 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:22] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:23,980 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:23] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:24,197 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:24] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:24,405 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:24] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:36,966 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:36] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:50,906 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:50] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:51,968 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:51] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:52,972 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:52] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:53,569 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:53] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:53,798 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:53] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:53,976 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:53] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:54,190 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:54] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:54,380 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:54] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:54,578 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:54] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:54,779 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:54] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:54,972 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:54] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:55,166 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:55] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:55,350 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:55] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:31:55,535 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:31:55] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:32:14,084 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api_conf/api_config.py', reloading
+2021-08-07 00:32:14,204 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 00:32:16,157 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 00:32:16,167 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 00:32:22,750 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api_conf/api_config.py', reloading
+2021-08-07 00:32:22,886 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 00:32:24,659 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 00:32:24,673 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 00:32:33,180 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-07 00:32:33,185 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 00:32:34,710 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 00:32:34,720 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 00:32:34,815 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:32:34] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:32:36,097 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:32:36] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 00:33:27,146 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 00:33:27] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:08:09,348 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:08:09] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:08:19,988 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:08:19] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:08:20,952 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:08:20] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:08:24,743 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:08:24] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:08:38,484 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:08:38] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:12:44,029 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:12:44] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:12:52,855 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:12:52] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:15:03,775 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:15:03] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:17:10,695 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:17:10] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 400 -
+2021-08-07 01:22:16,616 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:22:16] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 201 -
+2021-08-07 01:23:25,172 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:23:25] "GET /api/user HTTP/1.1" 200 -
+2021-08-07 01:24:21,394 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:24:21,396 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:24:21] "[31m[1mPOST /api/is_token_valid HTTP/1.1[0m" 405 -
+2021-08-07 01:24:21,470 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:24:21,472 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:24:21] "[31m[1mPOST /api/is_token_valid HTTP/1.1[0m" 405 -
+2021-08-07 01:25:00,402 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:25:00,405 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:25:00] "[31m[1mPOST /api/is_token_valid HTTP/1.1[0m" 405 -
+2021-08-07 01:25:13,475 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:25:13,478 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:25:13] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:20,679 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:20,684 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:20] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:21,594 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:21,596 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:21] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:22,182 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:22,184 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:22] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:22,370 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:22,371 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:22] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:22,566 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:22,568 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:22] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:22,752 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:22,754 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:22] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:22,953 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:22,956 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:22] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:23,136 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:23,139 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:23] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:28:23,345 ERROR root Thread-8 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-07 01:28:23,347 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:28:23] "[31m[1mPOST /api/get_token HTTP/1.1[0m" 405 -
+2021-08-07 01:29:16,626 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:29:16] "[31m[1mPOST /api/v1/authenticate HTTP/1.1[0m" 400 -
+2021-08-07 01:30:18,014 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:30:18] "[31m[1mPOST /api/v1/authenticate HTTP/1.1[0m" 400 -
+2021-08-07 01:30:58,452 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-07 01:30:58,677 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 01:31:00,741 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 01:31:00,752 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 01:31:32,362 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-07 01:31:32,471 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-07 01:31:34,275 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-07 01:31:34,284 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-07 01:31:51,887 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:31:51] "POST /api/v1/authenticate HTTP/1.1" 200 -
+2021-08-07 01:32:04,820 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:32:04] "GET /api/user HTTP/1.1" 200 -
+2021-08-07 01:33:45,922 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:33:45] "POST /api/v1/authenticate HTTP/1.1" 200 -
+2021-08-07 01:33:48,360 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:33:48] "GET /api/user HTTP/1.1" 200 -
+2021-08-07 01:38:35,566 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:38:35] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:38:35,728 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:38:35] "GET /api/user HTTP/1.1" 200 -
+2021-08-07 01:39:33,229 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:39:33] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:40:56,549 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:40:56] "GET /api/user HTTP/1.1" 200 -
+2021-08-07 01:42:12,977 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:42:12] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:42:13,104 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:42:13] "GET /api/user HTTP/1.1" 200 -
+2021-08-07 01:42:28,965 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:42:28] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:42:29,285 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:42:29] "GET /api/user HTTP/1.1" 200 -
+2021-08-07 01:43:06,247 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:43:06] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:44:02,118 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:44:02] "GET /api/user HTTP/1.1" 200 -
+2021-08-07 01:45:15,293 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:45:15] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:45:21,809 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:45:21] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 01:48:51,186 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:48:51] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:48:51,384 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:48:51] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 01:50:17,295 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:50:17] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:50:17,447 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:50:17] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 01:53:26,573 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:53:26] "POST /api/v1/authenticate HTTP/1.1" 200 -
+2021-08-07 01:53:34,399 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:53:34] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 01:58:41,755 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:58:41] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 01:58:43,805 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:58:43] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 01:58:48,349 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 01:58:48] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 02:01:56,450 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:01:56] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 02:01:56,534 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:01:56] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 02:02:40,139 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:02:40] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 02:02:40,255 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:02:40] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 02:04:04,559 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:04:04] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 02:04:04,661 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:04:04] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 02:04:19,582 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:04:19] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 02:04:19,686 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:04:19] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 02:05:36,505 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:05:36] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 02:05:36,624 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:05:36] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-07 02:06:17,273 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:06:17] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-07 02:06:17,397 INFO werkzeug Thread-8 : 127.0.0.1 - - [07/Aug/2021 02:06:17] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-08 01:17:50,812 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 01:17:51,179 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 01:18:52,809 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 01:18:52,813 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 01:18:54,633 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 01:18:54,648 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 11:27:12,479 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 11:27:12,485 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 11:27:14,191 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 11:27:14,212 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 11:27:28,526 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 11:27:28] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 500 -
+2021-08-08 11:30:51,310 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 11:30:51,319 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 11:31:04,241 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 11:31:04,260 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 11:35:37,736 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 11:35:37,744 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 11:35:45,964 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 11:35:45,977 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:24:23,424 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:24:23,430 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:24:27,747 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:24:27,759 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:25:31,289 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 12:25:31,912 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:25:37,901 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:25:37,916 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:27:15,324 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user.py', reloading
+2021-08-08 12:27:15,930 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:29:19,982 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:29:19,986 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:29:24,566 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:29:24,578 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:30:54,497 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user.py', reloading
+2021-08-08 12:30:54,993 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:31:04,996 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:31:04,999 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:31:06,658 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:31:06,674 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:33:05,974 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 12:33:05] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-08 12:36:27,611 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:36:27,620 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:36:29,206 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:36:29,239 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:36:57,336 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 12:36:57] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-08 12:37:44,899 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user.py', reloading
+2021-08-08 12:37:45,417 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:37:47,649 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:37:47,664 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:37:51,071 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:37:51,080 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:37:53,366 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:37:53,384 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:39:00,550 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:39:00,557 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:39:02,543 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:39:02,556 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:39:30,073 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:39:30,082 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:39:31,728 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:39:31,744 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:41:19,939 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:41:19,945 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:41:21,842 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:41:21,861 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:41:49,824 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:41:49,834 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:41:51,409 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:41:51,423 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:43:58,409 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user.py', reloading
+2021-08-08 12:43:58,909 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:44:02,299 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:44:02,313 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:44:33,706 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 12:44:34,060 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:44:35,741 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:44:35,756 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:44:44,475 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:44:44,479 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:44:46,555 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:44:46,570 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:45:54,954 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:45:54,963 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:45:56,624 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:45:56,640 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:48:20,361 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 12:48:20,984 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:48:23,616 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:48:23,634 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:48:54,148 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 12:48:54] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-08 12:49:44,099 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 12:49:44] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 500 -
+2021-08-08 12:50:12,082 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 12:50:12] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-08 12:52:42,627 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 12:52:43,320 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:52:46,392 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:52:46,402 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:53:15,125 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 12:53:15] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 201 -
+2021-08-08 12:54:36,982 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 12:54:37,587 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:54:40,031 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:54:40,044 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:55:51,970 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user.py', reloading
+2021-08-08 12:55:52,533 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:55:54,773 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:55:54,789 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:56:03,887 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/base_model.py', reloading
+2021-08-08 12:56:04,773 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:56:07,589 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:56:07,611 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:56:37,321 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/base_model.py', reloading
+2021-08-08 12:56:37,866 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:56:40,330 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:56:40,353 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:57:57,095 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user.py', reloading
+2021-08-08 12:57:57,648 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:58:55,045 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 12:58:55,054 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:58:56,780 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:58:56,817 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 12:59:09,933 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 12:59:09] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-08 12:59:48,821 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/base_model.py', reloading
+2021-08-08 12:59:49,362 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 12:59:51,441 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 12:59:51,456 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:00:43,578 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:00:43] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 201 -
+2021-08-08 13:01:57,023 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:01:57] "[35m[1mPOST /api/v1/authenticate HTTP/1.1[0m" 500 -
+2021-08-08 13:02:34,494 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 13:02:34,880 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:02:37,491 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:02:37,522 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:02:56,259 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 13:02:56,711 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:02:59,216 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:02:59,231 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:03:49,544 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 13:03:49,550 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:03:51,409 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:03:51,455 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:03:57,854 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:03:57] "[31m[1mPOST /api/v1/authenticate HTTP/1.1[0m" 403 -
+2021-08-08 13:04:18,171 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:04:18] "[31m[1mPOST /api/v1/authenticate HTTP/1.1[0m" 403 -
+2021-08-08 13:06:08,574 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 13:06:08,583 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:06:10,272 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:06:10,288 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:06:19,084 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:06:19] "[31m[1mPOST /api/v1/authenticate HTTP/1.1[0m" 403 -
+2021-08-08 13:06:36,237 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:06:36] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 201 -
+2021-08-08 13:07:18,211 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:07:18] "POST /api/v1/authenticate HTTP/1.1" 200 -
+2021-08-08 13:07:35,372 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:07:35] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-08 13:08:35,083 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 13:08:35,705 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:08:37,921 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:08:37,936 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:08:56,478 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 13:08:56,876 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:28:16,972 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 13:28:16,976 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:28:20,724 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:28:20,740 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:28:38,908 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Aug/2021 13:28:38] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 201 -
+2021-08-08 13:28:59,612 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Aug/2021 13:28:59] "POST /api/v1/authenticate HTTP/1.1" 200 -
+2021-08-08 13:30:32,518 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 13:30:32,532 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:30:34,246 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:30:34,262 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:30:39,170 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:30:39] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-08 13:31:38,819 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:31:38] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-08 13:31:55,372 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:31:55] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-08 13:32:11,726 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:32:11] "[35m[1mGET /api/v1/business/610805c18377f6ac2cdb9e4c HTTP/1.1[0m" 500 -
+2021-08-08 13:33:22,259 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 13:33:22,596 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:33:22] "[35m[1mGET /api/v1/business/610805c18377f6ac2cdb9e4c HTTP/1.1[0m" 500 -
+2021-08-08 13:33:22,815 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:33:25,283 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:33:25,298 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:33:32,583 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:33:32] "[35m[1mGET /api/v1/business/610805c18377f6ac2cdb9e4c HTTP/1.1[0m" 500 -
+2021-08-08 13:33:53,709 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/__init__.py', reloading
+2021-08-08 13:33:54,130 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:33:55,950 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:33:55,980 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:34:15,118 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:34:15] "GET /api/v1/business/610805c18377f6ac2cdb9e4c HTTP/1.1" 200 -
+2021-08-08 13:35:09,006 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/business.py', reloading
+2021-08-08 13:35:09,441 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:35:11,951 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:35:11,968 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:35:23,589 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:35:23] "[35m[1mGET /api/v1/business/610805c18377f6ac2cdb9e4c HTTP/1.1[0m" 500 -
+2021-08-08 13:36:13,114 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 13:36:13,129 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:36:15,008 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:36:15,024 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:36:21,998 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:36:21] "[33mGET /api/v1/business/610805c18377f6ac2cdb9e4c HTTP/1.1[0m" 404 -
+2021-08-08 13:36:46,553 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:36:46] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 13:38:54,845 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:38:54] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 13:41:09,376 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:41:09] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 13:46:31,431 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 13:46:31,441 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:46:33,059 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:46:33,075 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:47:57,113 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user.py', reloading
+2021-08-08 13:47:57,622 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:47:59,695 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:47:59,718 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:48:20,015 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:48:20] "POST /api/v1/authenticate HTTP/1.1" 200 -
+2021-08-08 13:49:34,570 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 13:49:34,932 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:49:37,130 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:49:37,144 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:49:38,333 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 13:49:38,738 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:49:40,201 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:49:40,217 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:55:27,152 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/schedule.py', reloading
+2021-08-08 13:55:27,300 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:55:29,601 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:55:29,620 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:56:20,170 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 13:56:20,634 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:56:43,506 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 13:56:43,513 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 13:56:45,447 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 13:56:45,460 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 13:57:30,022 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:57:30] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 13:58:12,365 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 13:58:12] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:00:58,043 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 14:00:58,047 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:00:59,550 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:00:59,566 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:01:51,011 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:01:51] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:03:00,952 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 14:03:00,956 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:03:02,577 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:03:02,591 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:03:07,670 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:03:07] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:03:37,979 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 14:03:37,986 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:03:39,650 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:03:39,671 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:04:17,270 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:04:17] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:06:05,260 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 14:06:05,761 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:06:08,595 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:06:08,606 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:06:38,694 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 14:06:39,214 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:06:40,949 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:06:40,965 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:06:50,872 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 14:06:51,100 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:06:52,749 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:06:52,766 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:07:06,958 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:07:06] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:08:29,012 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 14:08:29,506 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:08:32,102 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:08:32,114 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:08:37,641 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 14:08:38,223 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:08:39,902 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:08:39,916 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:09:01,368 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:09:01] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:10:04,139 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/schedule.py', reloading
+2021-08-08 14:10:04,608 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:10:07,039 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:10:07,050 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:10:21,525 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:10:21] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:11:18,717 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/business.py', reloading
+2021-08-08 14:11:19,026 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:11:21,453 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:11:21,467 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:14:48,218 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:14:48] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:15:45,375 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/business.py', reloading
+2021-08-08 14:15:45,967 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:15:48,555 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:15:48,581 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:16:34,347 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/business.py', reloading
+2021-08-08 14:16:34,913 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:16:36,932 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:16:36,950 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:19:51,617 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 14:19:51,621 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:19:53,188 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:19:53,208 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:24:03,160 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:24:03] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:26:19,204 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 14:26:19] "[31m[1mGET /api/v1/schedule HTTP/1.1[0m" 400 -
+2021-08-08 14:56:46,525 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 14:56:46,531 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 14:57:04,952 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 14:57:04,972 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 14:59:25,392 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 14:59:25,396 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:01:56,371 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:01:56,375 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:02:03,978 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:02:03,991 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:04:20,516 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:04:20,522 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:04:27,281 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:04:27,299 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:05:32,670 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Aug/2021 15:05:32] "GET /api/v1/schedule HTTP/1.1" 200 -
+2021-08-08 15:06:40,638 INFO werkzeug Thread-13 : 127.0.0.1 - - [08/Aug/2021 15:06:40] "[35m[1mGET /api/v1/business_search?q=ra&page=1 HTTP/1.1[0m" 500 -
+2021-08-08 15:07:47,713 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/business.py', reloading
+2021-08-08 15:07:48,154 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:07:50,345 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:07:50,361 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:08:19,729 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user.py', reloading
+2021-08-08 15:08:20,246 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:08:22,382 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:08:22,428 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:08:58,649 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/base_model.py', reloading
+2021-08-08 15:08:59,192 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:09:01,852 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:09:01,868 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:09:08,424 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/base_model.py', reloading
+2021-08-08 15:09:08,998 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:09:10,680 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:09:10,694 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:09:16,400 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:09:16,408 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:09:18,923 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:09:18,937 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:09:23,343 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:09:23] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-08 15:09:40,503 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:09:40] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 201 -
+2021-08-08 15:10:14,986 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:10:14] "[31m[1mPOST /api/v1/authenticate HTTP/1.1[0m" 403 -
+2021-08-08 15:10:35,596 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:10:35] "POST /api/v1/authenticate HTTP/1.1" 200 -
+2021-08-08 15:11:04,960 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:11:04] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-08 15:11:28,538 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:11:28] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-08 15:11:29,771 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:11:29] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-08 15:11:52,985 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:11:52] "[35m[1mPOST /api/v1/authorize HTTP/1.1[0m" 500 -
+2021-08-08 15:12:32,926 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:12:32] "[35m[1mPOST /api/v1/authorize HTTP/1.1[0m" 500 -
+2021-08-08 15:13:09,275 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:13:09] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-08 15:13:44,152 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:13:44] "GET /api/v1/business/610ee4bf973f91a0d3d9e425 HTTP/1.1" 200 -
+2021-08-08 15:13:57,958 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:13:57] "GET /api/v1/schedule HTTP/1.1" 200 -
+2021-08-08 15:14:08,444 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:14:08] "GET /api/v1/schedule?page=2 HTTP/1.1" 200 -
+2021-08-08 15:14:16,529 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:14:16] "GET /api/v1/schedule?page=3 HTTP/1.1" 200 -
+2021-08-08 15:14:29,249 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:14:29] "[35m[1mPOST /api/v1/favourite HTTP/1.1[0m" 500 -
+2021-08-08 15:17:42,067 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:17:42,073 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:17:43,912 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:17:43,933 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:18:27,862 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:18:27] "[35m[1mPOST /api/v1/favourite HTTP/1.1[0m" 201 -
+2021-08-08 15:18:46,609 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:18:46] "[35m[1mGET /api/v1/favourites?page=1 HTTP/1.1[0m" 500 -
+2021-08-08 15:21:21,494 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 15:21:22,073 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:21:25,043 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:21:25,194 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:21:28,700 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:21:28] "GET /api/v1/favourites?page=1 HTTP/1.1" 200 -
+2021-08-08 15:22:46,868 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:22:46,871 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:22:48,926 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:22:48,940 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:23:43,190 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:23:43,192 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:23:44,165 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:23:44,177 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:23:48,767 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:23:48,771 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:23:51,092 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:23:51,117 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:24:08,042 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:24:08] "[33mPOST /api/v1/favourite/610f85214a5e40571bbc1e96/business HTTP/1.1[0m" 404 -
+2021-08-08 15:24:18,529 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:24:18] "[35m[1mPOST /api/v1/favourite/610f85214a5e40571bbc1e96/business HTTP/1.1[0m" 201 -
+2021-08-08 15:24:46,025 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:24:46] "GET /api/v1/favourite/610f85214a5e40571bbc1e96/business HTTP/1.1" 200 -
+2021-08-08 15:25:10,685 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:25:10] "[35m[1mGET /api/v1/business_search?q=ra&page=1 HTTP/1.1[0m" 500 -
+2021-08-08 15:26:22,321 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/business.py', reloading
+2021-08-08 15:26:22,894 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:26:25,032 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:26:25,048 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:26:31,316 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:26:31] "GET /api/v1/business_search?q=ra&page=1 HTTP/1.1" 200 -
+2021-08-08 15:26:37,365 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:26:37] "GET /api/v1/business_search?q=ra&page=2 HTTP/1.1" 200 -
+2021-08-08 15:26:41,515 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:26:41] "[31m[1mGET /api/v1/business_search?q=ra&page=0 HTTP/1.1[0m" 400 -
+2021-08-08 15:26:45,300 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:26:45] "GET /api/v1/business_search?q=ra&page=1 HTTP/1.1" 200 -
+2021-08-08 15:26:57,488 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:26:57,489 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:26:57] "GET /api/v1/favourite_search?q=ra&page=1 HTTP/1.1" 200 -
+2021-08-08 15:27:04,880 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:27:04] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:28:17,907 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:28:17] "[35m[1mPOST /api/v1/share_favourites HTTP/1.1[0m" 500 -
+2021-08-08 15:29:52,510 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 15:29:52,874 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:29:55,024 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:29:55,040 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:29:59,463 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 15:29:59,905 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:30:01,540 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:30:01,560 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:30:56,503 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/users.py', reloading
+2021-08-08 15:30:57,042 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:30:59,799 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:30:59,825 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:31:04,538 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:31:04] "POST /api/v1/share_favourites HTTP/1.1" 200 -
+2021-08-08 15:31:55,307 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:31:55] "[35m[1mPOST /api/v1/favourite HTTP/1.1[0m" 201 -
+2021-08-08 15:32:43,041 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:32:43] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 201 -
+2021-08-08 15:33:18,980 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:33:18] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:33:56,106 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:33:56,109 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:33:56] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:34:36,530 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:34:36] "[35m[1mPOST /api/v1/share_favourites HTTP/1.1[0m" 201 -
+2021-08-08 15:34:45,796 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:34:45,798 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:34:45] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:34:49,711 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:34:49,713 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:34:49] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:35:51,579 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:35:51,583 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:35:51] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:36:06,630 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:36:06] "POST /api/v1/share_favourites HTTP/1.1" 200 -
+2021-08-08 15:36:21,102 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:36:21,120 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:36:21] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:36:34,456 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:36:34] "POST /api/v1/share_favourites HTTP/1.1" 200 -
+2021-08-08 15:38:14,784 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:38:14] "POST /api/v1/authenticate HTTP/1.1" 200 -
+2021-08-08 15:38:47,078 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:38:47] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-08 15:38:55,645 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:38:55] "GET /api/v1/business/610ee4bf973f91a0d3d9e425 HTTP/1.1" 200 -
+2021-08-08 15:39:02,864 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:39:02] "GET /api/v1/schedule?page=3 HTTP/1.1" 200 -
+2021-08-08 15:39:20,431 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:39:20] "[35m[1mPOST /api/v1/favourite HTTP/1.1[0m" 201 -
+2021-08-08 15:39:43,940 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:39:43] "POST /api/v1/favourite HTTP/1.1" 200 -
+2021-08-08 15:39:46,352 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:39:46] "POST /api/v1/favourite HTTP/1.1" 200 -
+2021-08-08 15:39:58,117 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:39:58] "GET /api/v1/favourites?page=1 HTTP/1.1" 200 -
+2021-08-08 15:40:47,381 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:40:47] "[35m[1mPOST /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1[0m" 201 -
+2021-08-08 15:41:03,335 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:41:03] "GET /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1" 200 -
+2021-08-08 15:41:33,113 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:41:33] "[35m[1mPOST /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1[0m" 201 -
+2021-08-08 15:41:37,147 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:41:37] "GET /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1" 200 -
+2021-08-08 15:41:47,915 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:41:47,916 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:41:47] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:44:01,859 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:44:01,870 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:44:01] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:45:27,139 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:45:27,141 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:45:27] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:47:22,667 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 15:47:22,668 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:47:22] "GET /api/v1/favourite_search?q=f&page=1 HTTP/1.1" 200 -
+2021-08-08 15:47:35,720 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:47:35] "GET /api/v1/favourite_search?q=n&page=1 HTTP/1.1" 200 -
+2021-08-08 15:48:31,329 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:48:31] "[35m[1mPOST /api/v1/users HTTP/1.1[0m" 201 -
+2021-08-08 15:49:47,420 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:49:47] "[35m[1mPOST /api/v1/share_favourites HTTP/1.1[0m" 201 -
+2021-08-08 15:50:21,708 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 15:50:21] "GET /api/v1/favourites?page=1 HTTP/1.1" 200 -
+2021-08-08 15:52:10,357 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 15:52:10,887 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:52:45,413 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:52:45,420 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:52:47,094 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:52:47,111 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:54:45,015 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 15:54:45,990 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:54:48,641 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:54:48,654 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 15:59:31,704 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 15:59:31,713 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 15:59:34,137 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 15:59:34,151 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:01:07,116 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 16:01:07,625 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:01:10,342 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:01:10,363 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:02:26,730 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:02:26] "GET /api/v1/favourites?page=1 HTTP/1.1" 200 -
+2021-08-08 16:04:06,207 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:04:06,211 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:04:08,418 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:04:08,431 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:06:28,632 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 16:06:29,504 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:06:34,125 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:06:34,142 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:10:03,131 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 16:10:03,953 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:10:06,947 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:10:06,960 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:11:35,279 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:11:35] "GET /api/v1/favourites?page=1 HTTP/1.1" 200 -
+2021-08-08 16:13:23,342 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:13:23,347 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:13:26,497 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:13:26,515 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:14:37,473 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 16:14:37,850 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:14:40,800 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:14:40,812 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:14:50,352 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:14:50,358 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:14:52,341 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:14:52,355 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:15:21,107 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 16:15:21,686 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:19:16,193 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:19:16,199 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:19:18,690 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:19:18,721 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:19:55,323 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:19:55,326 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:19:57,488 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:19:57,512 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:20:53,065 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 16:20:53,555 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:21:01,525 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:21:01,531 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:21:04,107 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:21:04,131 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:21:50,359 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:21:50,364 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:21:53,314 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:21:53,335 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:23:24,694 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/models/user_favourite.py', reloading
+2021-08-08 16:23:25,268 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:23:28,224 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:23:28,238 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:23:35,683 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:23:35,692 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:23:38,281 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:23:38,297 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:25:22,625 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:25:22,627 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:25:26,124 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:25:26,128 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:25:27,926 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:25:27,946 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 16:25:40,472 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:25:40] "GET /api/v1/favourites?page=1 HTTP/1.1" 200 -
+2021-08-08 16:26:06,364 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:26:06] "GET /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1" 200 -
+2021-08-08 16:26:30,577 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:26:30] "GET /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1" 200 -
+2021-08-08 16:26:41,134 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:26:41] "GET /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1" 200 -
+2021-08-08 16:27:12,938 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:27:12] "GET /api/v1/favourites?page=1 HTTP/1.1" 200 -
+2021-08-08 16:27:25,762 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 16:27:25,767 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:27:25] "GET /api/v1/favourite_search?q=n&page=1 HTTP/1.1" 200 -
+2021-08-08 16:28:01,823 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:28:01] "GET /api/v1/favourites?page=1 HTTP/1.1" 200 -
+2021-08-08 16:28:12,153 ERROR root Thread-7 : paginated_query error list index out of range
+2021-08-08 16:28:12,155 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 16:28:12] "GET /api/v1/favourite_search?q=n&page=1 HTTP/1.1" 200 -
+2021-08-08 16:34:35,813 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/api/__init__.py', reloading
+2021-08-08 16:34:36,366 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:35:18,046 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 16:35:18,050 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 16:35:19,731 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 16:35:19,748 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:15:15,844 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:15:15,850 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:15:17,909 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:15:17,932 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:15:32,762 INFO root Thread-7 : Hitting Root
+2021-08-08 17:15:32,763 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:15:32] "GET / HTTP/1.1" 200 -
+2021-08-08 17:26:20,127 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:26:20,811 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:26:23,416 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:26:23,428 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:26:32,637 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:26:33,053 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:26:34,958 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:26:34,983 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:27:21,771 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:27:22,290 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:27:24,694 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:27:24,715 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:27:32,588 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:27:32,597 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:27:34,375 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:27:34,390 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:27:41,502 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:27:41] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:28:00,787 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:28:01,323 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:28:03,254 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:28:03,271 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:28:11,617 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:28:11,632 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:28:13,580 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:28:13,595 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:28:15,287 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:28:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-08-08 17:28:15,363 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:28:15] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-08-08 17:28:15,368 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:28:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-08-08 17:28:15,424 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:28:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:28:15,564 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:28:15] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-08-08 17:28:15,791 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:28:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:29:38,693 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:29:39,123 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:32:24,472 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:32:24,476 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:32:26,153 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:32:26,211 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:32:28,765 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:32:28] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:32:30,618 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:32:30] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:32:31,240 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:32:31] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:32:32,107 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:32:32] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:33:16,971 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:33:17,209 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:33:19,391 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:33:19,416 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:33:21,803 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:33:21] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:33:29,073 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:33:29,078 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:33:30,850 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:33:30,880 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:33:32,873 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:33:32] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:33:33,605 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:33:33] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:34:46,189 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:34:46,693 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:34:48,961 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:34:48,972 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:34:51,690 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:34:51,701 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:34:53,872 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:34:53,912 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:34:55,662 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:34:55] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:34:57,534 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:34:57] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:34:58,384 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:34:58] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:35:25,177 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:35:25,740 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:35:27,672 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:35:27,691 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:35:29,749 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:35:29] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:35:30,968 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:35:30] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:35:38,201 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:35:38,207 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:35:40,046 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:35:40,068 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:35:41,810 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:35:41] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:35:42,194 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:35:42] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:35:55,015 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:35:55,589 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:35:57,888 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:35:57,920 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:36:00,916 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:36:00,927 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:36:02,835 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:36:02,855 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:36:04,609 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:36:04] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:36:04,613 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:36:04] "[33mGET / HTTP/1.1[0m" 404 -
+2021-08-08 17:37:19,262 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:37:19,825 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:37:22,048 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:37:22,058 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:37:26,879 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:37:26,886 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:37:28,630 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:37:28,646 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:37:30,318 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:37:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-08-08 17:37:33,362 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:37:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-08-08 17:37:33,498 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:37:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-08-08 17:37:33,502 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:37:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-08-08 17:37:33,666 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:37:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:37:34,153 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:37:34] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-08-08 17:37:34,568 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:37:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:39:23,098 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:39:23,729 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:39:26,124 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:39:26,136 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:39:31,478 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:39:31,489 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:39:33,608 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:39:33,622 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:39:35,386 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-08-08 17:39:35,509 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:35] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-08-08 17:39:35,519 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:35] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-08-08 17:39:35,562 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:39:35,590 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:35] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-08-08 17:39:35,723 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:39:40,686 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-08-08 17:39:45,333 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-08-08 17:39:45,452 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-08-08 17:39:45,463 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:45] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-08-08 17:39:45,645 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:39:45,721 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:45] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-08-08 17:39:45,982 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:39:45] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:42:33,730 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:42:34,243 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:42:36,413 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:42:36,430 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:42:42,740 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:42:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-08-08 17:42:42,892 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:42:42] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-08-08 17:42:42,897 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:42:42] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-08-08 17:42:43,146 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:42:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:42:43,250 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:42:43] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-08-08 17:42:43,541 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:42:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:43:27,487 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:43:27,859 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:43:32,335 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:43:32,359 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:45:03,804 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:45:04,304 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:45:06,627 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:45:06,641 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:45:37,458 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:45:37,989 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:45:40,126 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:45:40,139 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:45:52,352 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:45:52,874 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:45:54,797 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:45:54,811 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:46:00,182 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:46:00,191 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:46:03,195 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:46:03,269 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:46:05,183 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:46:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-08-08 17:46:05,321 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:46:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-08-08 17:46:05,348 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:46:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-08-08 17:46:05,638 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:46:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:46:05,740 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:46:05] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-08-08 17:46:05,998 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:46:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-08-08 17:46:21,842 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:46:22,348 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:46:24,506 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:46:24,518 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:46:49,724 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/application/__init__.py', reloading
+2021-08-08 17:46:50,319 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:46:51,926 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:46:51,942 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:46:57,816 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 17:46:57,822 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 17:46:59,699 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 17:46:59,715 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 17:47:01,790 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:01] "GET / HTTP/1.1" 200 -
+2021-08-08 17:47:01,958 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:01] "GET /static/css/main.8c8b27cf.chunk.css HTTP/1.1" 200 -
+2021-08-08 17:47:01,968 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:01] "GET /static/js/2.7b853cd0.chunk.js HTTP/1.1" 200 -
+2021-08-08 17:47:01,985 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:01] "GET /static/js/main.1e4a15a9.chunk.js HTTP/1.1" 200 -
+2021-08-08 17:47:02,107 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:02] "GET /static/css/main.8c8b27cf.chunk.css.map HTTP/1.1" 200 -
+2021-08-08 17:47:02,200 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:02] "GET /static/media/logo.6ce24c58.svg HTTP/1.1" 200 -
+2021-08-08 17:47:02,214 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:02] "GET /static/js/2.7b853cd0.chunk.js.map HTTP/1.1" 200 -
+2021-08-08 17:47:02,230 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:02] "GET /static/js/main.1e4a15a9.chunk.js.map HTTP/1.1" 200 -
+2021-08-08 17:47:02,814 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:02] "GET /manifest.json HTTP/1.1" 200 -
+2021-08-08 17:47:02,883 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 17:47:02] "GET /logo192.png HTTP/1.1" 200 -
+2021-08-08 18:54:39,080 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-08-08 18:54:39,094 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-08 18:54:41,913 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-08 18:54:41,935 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136
+2021-08-08 18:54:53,993 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:53] "GET / HTTP/1.1" 200 -
+2021-08-08 18:54:54,220 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:54] "GET /static/css/main.8c8b27cf.chunk.css HTTP/1.1" 200 -
+2021-08-08 18:54:54,234 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:54] "GET /static/js/2.7b853cd0.chunk.js HTTP/1.1" 200 -
+2021-08-08 18:54:54,254 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:54] "GET /static/js/main.1e4a15a9.chunk.js HTTP/1.1" 200 -
+2021-08-08 18:54:54,552 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:54] "GET /static/media/logo.6ce24c58.svg HTTP/1.1" 200 -
+2021-08-08 18:54:55,122 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:55] "GET /manifest.json HTTP/1.1" 200 -
+2021-08-08 18:54:55,129 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:55] "GET /favicon.ico HTTP/1.1" 200 -
+2021-08-08 18:54:55,159 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Aug/2021 18:54:55] "GET /logo192.png HTTP/1.1" 200 -
+2021-08-09 00:22:48,526 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:22:48] "GET /api/v1/schedule?page=3 HTTP/1.1" 200 -
+2021-08-09 00:23:00,171 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:23:00] "[31m[1mPOST /api/v1/users HTTP/1.1[0m" 409 -
+2021-08-09 00:46:22,813 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:46:22] "GET /api/v1/favourite/610f8a285bea61cce105cf6a/business HTTP/1.1" 200 -
+2021-08-09 00:47:07,225 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:47:07] "[33mGET /business/610ee4bf973f91a0d3d9e425 HTTP/1.1[0m" 404 -
+2021-08-09 00:47:09,028 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:47:09] "[33mGET /business/610ee4bf973f91a0d3d9e425 HTTP/1.1[0m" 404 -
+2021-08-09 00:48:10,786 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:48:10] "[33mGET /business/610ee4bf973f91a0d3d9e425 HTTP/1.1[0m" 404 -
+2021-08-09 00:48:47,399 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:48:47] "GET /api/v1/business/610ee4bf973f91a0d3d9e425 HTTP/1.1" 200 -
+2021-08-09 00:54:44,759 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:54:44] "GET / HTTP/1.1" 200 -
+2021-08-09 00:56:15,798 ERROR root Thread-7 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-09 00:56:15,799 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:56:15] "[31m[1mPOST /api/v1/share_favourite HTTP/1.1[0m" 405 -
+2021-08-09 00:56:44,005 ERROR root Thread-7 : 405 Method Not Allowed: The method is not allowed for the requested URL.
+2021-08-09 00:56:44,009 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:56:44] "[31m[1mPOST /api/v1/share_favourite HTTP/1.1[0m" 405 -
+2021-08-09 00:57:02,134 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:57:02] "POST /api/v1/share_favourites HTTP/1.1" 200 -
+2021-08-09 00:59:10,661 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:59:10] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-09 00:59:11,349 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:59:11] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-09 00:59:22,945 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:59:22] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-09 00:59:23,912 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 00:59:23] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-09 01:03:27,040 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 01:03:27] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-09 01:05:19,834 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 01:05:19] "POST /api/v1/authorize HTTP/1.1" 200 -
+2021-08-09 01:05:25,620 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Aug/2021 01:05:25] "GET /api/v1/me HTTP/1.1" 200 -
+2021-08-09 01:11:34,003 INFO werkzeug MainThread :  * Detected change in '/Users/susmitbasu/Projects/Glints/f-beiiopn/be-iiopn/frontend/node_modules/node-gyp/update-gyp.py', reloading
+2021-08-09 01:11:35,852 INFO werkzeug MainThread :  * Restarting with stat
+2021-08-09 01:11:46,040 WARNING werkzeug MainThread :  * Debugger is active!
+2021-08-09 01:11:46,074 INFO werkzeug MainThread :  * Debugger PIN: 187-204-136

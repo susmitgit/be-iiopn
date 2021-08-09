@@ -7,8 +7,7 @@ from application.models.favourite import FavouriteCollection
 from application.models.favourite_business import FavouriteBusinessCollection
 from application.models.user_favourite import UserFavouriteCollection
 
-client = MongoClient(host=os.getenv('DATABASE_HOST', 'localhost'), port=int(os.getenv('DATABASE_PORT', '27017')),
-                     connect=False)
+client = MongoClient(os.getenv('DATABASE_URI'), tlsAllowInvalidCertificates=True)
 db = client[os.getenv('DATABASE_NAME', 'test')]
 
 User = UserCollection(db)
